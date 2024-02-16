@@ -1,0 +1,9 @@
+Create Table Customers
+(
+	id int not null identity,
+	lastName nvarchar(20) not null,
+	name nvarchar(20) not null,
+	surname nvarchar(20) not null,
+	phoneNumber int,
+	eMail nvarchar(40) not null
+)
